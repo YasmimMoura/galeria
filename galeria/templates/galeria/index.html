@@ -1,0 +1,37 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viwpoert" content="width=device-width, initial-scale=1.0">
+    <title> Galeria de Fotos - Marvel </title>
+    <link rel="stylesheet" href="{% static 'css/style_index.css' %}">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="#" class="logo"> Marvel</a>
+
+        <nav class="navbar">
+            <a href="{% url 'sobre' %}"> Fotos </a>
+        </nav>
+    </header>
+
+    <section class="home">
+        <div class="home-content">
+            <h1>Galeria de Heróis da Marvel</h1>
+            <p>A Marvel criou um universo repleto de personagens incríveis, cada um com sua história, poderes e lutas únicas. Nesta galeria, você pode explorar alguns dos heróis mais icônicos da Marvel, desde os tradicionais até os mais modernos.</p>
+                <div class="bnt-box">
+                </div>
+            </div>
+        <div class="conteudo">
+            <img src="{% static './img/logo.jpg' %}">
+            
+        </div>
+            
+    </section>
+</body>
+</html>
